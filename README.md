@@ -40,7 +40,7 @@ to play without disturbing their host operating systems.
 
 ```
 git clone https://github.com/james-prior/tdd-demo.git
-tdd-demo/setup
+source tdd-demo/setup
 ```
 
 ## Dependencies
