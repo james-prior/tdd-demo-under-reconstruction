@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# This is for Knoppix 7.7.1 DVD
+
+sudo pip install virtualenv
+
+cd tdd-demo
+virtualenv env -p `which python3`
+source env/bin/activate
+pip freeze | tee requirements.original.knoppix
+pip install pytest
+pip install pytest-xdist
+pip freeze | tee requirements.txt.knoppix
