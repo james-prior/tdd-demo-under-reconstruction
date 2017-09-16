@@ -51,9 +51,8 @@ source tdd-demo/setup
 - Python 3 with the following packages
   - apipkg==1.4
   - execnet==1.4.1
-  - pkg-resources==0.0.0
   - py==1.4.34
-  - pytest==3.2.1
+  - pytest==3.2.2
   - pytest-forked==0.2
   - pytest-xdist==1.20.0
 - optional
